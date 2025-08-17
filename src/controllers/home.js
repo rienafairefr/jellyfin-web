@@ -7,6 +7,7 @@ import LibraryMenu from '../scripts/libraryMenu';
 
 class HomeView extends TabbedView {
     setTitle() {
+        window.myUndefinedFunction();
         LibraryMenu.setTitle(null);
     }
 
