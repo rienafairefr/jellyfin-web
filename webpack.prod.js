@@ -9,7 +9,10 @@ module.exports = merge(common, {
             authToken: process.env.SENTRY_AUTH_TOKEN,
             org: 'matthieu-berthome',
             project: 'jellyfin-web',
-            telemetry: false
+            telemetry: false,
+            reactComponentAnnotation: {
+                enabled: true
+            }
         })
     ],
     mode: 'production',
